@@ -12,7 +12,10 @@ void XDriver::runLoop()
 {
 	while (true) {
 		this->runOnce();
+#ifdef _WIN32
 		Sleep(10);
+#else
+#endif
 	}
 }
 

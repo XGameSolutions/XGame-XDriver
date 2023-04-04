@@ -9,7 +9,7 @@ extern "C"
 }
 
 #include<iostream>
-using Namespace std;
+using namespace std;
 
 enum cbEnum {
 	lcb_errorCb,

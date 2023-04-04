@@ -10,7 +10,7 @@ extern "C"
 }
 
 #include<iostream>
-using Namespace std;
+using namespace std;
 
 void loadLib(lua_State * L);
 

@@ -3,7 +3,7 @@
 #include "nav.h"
 #include "socket.h"
 #include <iostream>
-using Namespace std;
+using namespace std;
 
 void test_nav()
 {

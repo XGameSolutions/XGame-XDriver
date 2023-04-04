@@ -36,6 +36,15 @@
 *.sdf
 *.sln
 
+*.sln
+*.sln.cache
+*.ncb
+*.vcproj
+*.vcproj*.user
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
 /project/.vs
 /bin
 /obj

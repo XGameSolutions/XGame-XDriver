@@ -174,7 +174,7 @@ void XProtoGroup::callProto(char * data, XProto * proto)
 			break;
 		}
 	}
-	//printf("XProtoGroup::callProto£ºid=%d\n", curProtoId);
+	//printf("XProtoGroup::callProtoï¿½ï¿½id=%d\n", curProtoId);
 	cbrun(L, nargs);
 }
 
@@ -355,7 +355,7 @@ char * XProtoGroup::read_string(char * data, uint32_t * offset, uint16_t* len)
 {
 	*len = read_uint16(data, offset);
 	char* str = (char*)(data + *offset);
-	*offset = (*offset) + (uint32_t)len;
+	*offset = (*offset) + (uint32_t)(*len);
 	return str;
 }
 
